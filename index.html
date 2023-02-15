@@ -4,11 +4,14 @@
         <title>South Parallel</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="container wrapper">
             <div>South Parallel</div>
-            <nav>
+            <nav class="primary-nav">
                 <ul>
                     <li><a href="/">Journal</a></li>
                     <li><a href="/">Book Now</a></li>
@@ -24,39 +27,45 @@
             </nav>
         </header>
         <main>
-        <section>
-            <h1>The best destinations south of the equator.</h1>
-            <a href="explore.html">Explore</a>
+        <section class="hero">
+            <div class="container wrapper">
+                <h1>The best destinations south of the equator.</h1>
+                <a class="button button-green" href="explore.html">Explore</a>
+            </div>
         </section>
         <section>
-            <h2>Where we're going...</h2>
-            <div>
+            <div class="bg-pink">
+                <h2>Where we're going...</h2>
+            </div>
+            <div class="container wrapper trip-grid">
                 <!-- Brazil -->
                 <img alt="Hillside of Brazil" src="imgs/Brazil-Photo.jpg">
                 <div>
                     <h3>Brazil</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam voluptatibus aspernatur dolor tempore sunt illum aliquid alias quos blanditiis laborum quam, perferendis beatae. Rerum consequuntur, sunt id laborum temporibus ab!</p>
-                    <a href="/">Leaving Nov 25</a>
+                    <a class="button button-pink" href="/">Leaving Nov 25 <img src="imgs/Arrow.svg" alt="arrow"></a>
                 </div>
             </div>
-            <div>Summer in the South</div>
-            <div>
+            <div class="bg-green">
+                <h2 >Summer in the South</h2>
+            </div>
+            <div class="container wrapper trip-grid">
                 <!-- Equador -->
-                <img alt="Town in Equador" src="imgs/Equador.jpg"><br>
-
                 <div>
                     <img alt="star" src="imgs/Popular.svg">
                     <p>Popular Choice</p>
-                </div>
-                <div>
                     <h3>Equador</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi vero sed, laboriosam a nesciunt eaque non quam illo debitis. Consectetur ducimus reiciendis sapiente libero velit numquam labore repudiandae, eaque blanditiis!</p>
-                    <a href="/">Leaving Dec 15 <img src="imgs/Arrow.svg" alt="arrow"></a>
+                    <a class="button button-pink" href="/">Leaving Dec 15 <img src="imgs/Arrow.svg" alt="arrow"></a>
                 </div>
+                <div>
+                    <img alt="Town in Equador" src="imgs/Equador.jpg">
+                </div>
+                
             </div>
         </section>
         </main>
-        <footer>
+        <footer class="container wrapper">
             <nav>
                 <ul>
                     <li><a href="/">Terms and Conditions</a></li>
@@ -68,7 +77,7 @@
                 <!-- About text -->
                 <p>South Parallel Inc<br>
                     Delivering bespoke travel experiences since 2019</p>
-                    <a href="about.html">About Us</a>
+                    <a class="button button-green" href="about.html">About Us</a>
             </div>
             <div>
                 <p>Get in Touch</p>
